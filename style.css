@@ -1,0 +1,87 @@
+
+body {
+    background-color: white;
+}
+
+.container {
+    background-color: white;
+    display: block;
+    max-width: 70vh;
+    max-height: 80vh;
+    width: 70vw;
+    height: 80vw;
+    margin: 6% auto auto auto;
+    position: relative;
+}
+
+.btnBox {
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(3, auto);
+    gap: 2%;
+    position: absolute;
+    bottom: 0;
+    margin: 2%;
+    width: 60%;
+    height: 75%;
+    padding: 1%;
+}
+
+
+
+
+.funcBox {
+    display: grid;
+    background-color: white;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    gap: 2%;
+    margin: 2%;
+    width: 30%;
+    height: 60%;
+    padding: 1%;
+}
+
+.clrBox {
+    display: grid;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 30%;
+    height: 10%;
+    padding: 1%;
+    margin: 2%;
+}
+
+.displayBox {
+    display: block;
+    background-color:  #dfdfdf;
+    text-align: center;
+    position: absolute;
+    width: 94%;
+    height: 15%;
+    padding: 2%;
+    margin: 1%;
+}
+
+.displayFont {
+    display: inline-block;
+    color: black;
+    position: absolute;
+    right: 0;
+    margin: 2%;
+    text-align: right;
+    font-size: min(7.5vw, 7.5vh);
+}
+
+
+.btns {
+    font-size: min(2rem, 5vh);
+}
+
+.btns:hover {
+    background-color: black;
+    color: white;
+}
